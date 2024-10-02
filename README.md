@@ -1,4 +1,4 @@
-# Famous Snake Game 🐍
+# Famous Snake Game
 
 Welcome to the **Famous Snake Game**, a classic game implemented in Python as part of a project for a Udemy course! The goal is simple: control the snake, eat the food, and grow longer. The game keeps track of the highest score, so challenge yourself to beat it every time you play!
 
