@@ -1,8 +1,8 @@
 # Import necessary libraries
 from body import Body  # This file defines the Body class for the snake
 from food import Food  # This file defines the Food class for the snake's target
-import time
-from scoreboard import Scoreboard
+import time  # To control the speed of the game loop
+from scoreboard import Scoreboard  # To display the score.
 
 EASY_DELAY = 0.0675  # Delay between movements for Easy difficulty (seconds)
 MED_DELAY = 0.0475  # Delay between movements for Medium difficulty (seconds)
@@ -62,7 +62,7 @@ def play():
         # Handle collision (game over)
         if collision:
             game_on = False
-            score_board.game_over()  # Display game over message with final score
+            score_board.game_over()  # Display game over message with final score and high score.
             body.screen.update()
             body.screen.onkey(key="space", fun=play)  # Bind space key to restart the game
 

@@ -7,7 +7,7 @@ class Scoreboard(Turtle):
 
     The Scoreboard object:
         - Inherits from the Turtle class to display text on the screen.
-        - Manages the score and displays it to the user.
+        - Manages the score and highscore, and displays it to the user.
         - Shows a "GAME OVER" message and restart instructions when the game ends.
     """
 
@@ -33,7 +33,7 @@ class Scoreboard(Turtle):
 
     def write_score(self):
         """
-        This function writes the current score to the screen.
+        This function writes the current score and the current high score to the screen.
 
         - Uses the write method from the Turtle class to display formatted text.
         - The formatted text includes "Score: " followed by the current score value.
@@ -43,9 +43,11 @@ class Scoreboard(Turtle):
 
     def update_score(self):
         """
-        This function updates the score by 1 and displays the new score.
+        This function updates the score by 1 and displays the new scores.
 
         - Increments the score by 1.
+        - Compares current score with high score.
+        - Sets high score if the current score is greater than current high score.
         - Clears the previously written score using the clear method.
         - Calls the write_score function to display the updated score.
         """
