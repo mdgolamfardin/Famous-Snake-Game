@@ -29,7 +29,7 @@ class Scoreboard(Turtle):
         self.goto(-130, 280)  # Clear the top center area for the score
         self.score = 0
         with open("data.txt", mode="r") as file:
-            self.high_score = int(file.read())
+            self.high_score = int(file.read())  # Read the current highscore from saved data.
 
     def write_score(self):
         """
