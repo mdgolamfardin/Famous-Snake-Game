@@ -9,7 +9,6 @@ Welcome to the **Famous Snake Game**, a classic game implemented in Python as pa
 - [How to Play](#how-to-play)
 - [File Overview](#file-overview)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Game Features
 
