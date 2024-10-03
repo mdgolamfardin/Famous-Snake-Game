@@ -76,10 +76,6 @@ Ensure you have **Python 3.x** installed on your machine. You will also need the
 
 Feel free to fork the repository, submit issues, and create pull requests if you'd like to contribute to this project. Any suggestions or improvements are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## Acknowledgement
 This project is a part of the course "100 Days of Code: The Complete Python Pro Bootcamp", taught by Dr. Angela Yu on Udemy.
 
