@@ -4,8 +4,8 @@ from food import Food  # This file defines the Food class for the snake's target
 import time  # To control the speed of the game loop
 from scoreboard import Scoreboard  # To display the score.
 
-EASY_DELAY = 0.0675  # Delay between movements for Easy difficulty (seconds)
-MED_DELAY = 0.0475  # Delay between movements for Medium difficulty (seconds)
+EASY_DELAY = 0.0775  # Delay between movements for Easy difficulty (seconds)
+MED_DELAY = 0.0450  # Delay between movements for Medium difficulty (seconds)
 HARD_DELAY = 0.0330  # Delay between movements for Hard difficulty (seconds)
 INTRO_PAUSE = 2  # Intro screen pause time (seconds)
 
@@ -37,6 +37,8 @@ def play():
         move_delay = HARD_DELAY
     else:
         move_delay = MED_DELAY
+
+    body.screen.update()
 
     # Listen for keyboard input to control the snake
     body.screen.listen()
